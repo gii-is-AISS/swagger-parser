@@ -26,4 +26,9 @@
             </snapshots>
         </repository>
     </repositories>
+    <properties>
+        <sonar.projectKey>gii-is-AISS_${artifactId}</sonar.projectKey>
+		<sonar.organization>gii-is-aiss</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
 </project>
